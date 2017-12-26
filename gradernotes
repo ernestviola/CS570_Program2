@@ -1,0 +1,5 @@
+I used inout2.c as a template from Foster for 'getword.c'.
+I believe that everything works perfectly under all conditions. However, there seems to be a bug with recurrent commands when trying to execute the builtin commands, this is caused by having the builtin commands outside of a child, so during a failed attempt it will still print the prompt rather than immediately failing.
+I didn't implement any of the extra credit.
+Handled '< >' and '> <' as errors as it was not specified to what functionality was 
+supposed to be given.
